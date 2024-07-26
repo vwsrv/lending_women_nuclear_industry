@@ -2,14 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --white-color: 255, 255, 255;
-}
+/* :root {
+} */
 
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(var(--white-color), 1);
 }
 
 @layer utilities {
