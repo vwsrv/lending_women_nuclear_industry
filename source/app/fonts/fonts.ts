@@ -7,4 +7,3 @@ export const inter = Inter({
   display: 'block',
   fallback: ['sans-serif']
 })
-
