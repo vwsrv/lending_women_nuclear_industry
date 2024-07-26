@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      white: '#FFF',
+      white: 'rgba(var(--white-color) / 1)',
       'white-smoke': '#F7F7F7',
       indigo: '#2D2458',
       magenta: '#C410E1',
