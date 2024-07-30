@@ -9,7 +9,7 @@ export const MissionAndTasks: React.FC<IMissionAndTasksProps> = ({
   tasks
 }) => {
   return (
-    <div className="flex gap-14 w-full flex-wrap justify-center">
+    <div className="flex gap-14 w-full flex-wrap justify-center bg-poly-pattern">
       <div>
         <h2 className="uppercase text-6xl font-bold leading-10 mb-10 text-indigo-950">
           Миссия
