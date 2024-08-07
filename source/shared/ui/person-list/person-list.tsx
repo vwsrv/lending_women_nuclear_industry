@@ -6,7 +6,7 @@ export const PersonList: React.FC<personListProps> = ({ listItems }) => {
     <ul className="grid grid-cols-2 gap-y-7 gap-x-28">
       {listItems.map((item, index) => {
         return (
-          <li key={index} className="text-gray leading-10 flex flex-row">
+          <li key={index} className="leading-10 flex flex-row">
             <Image
               src={item.photo}
               alt={'Фото ' + item.name}
