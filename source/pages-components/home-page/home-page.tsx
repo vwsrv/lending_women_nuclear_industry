@@ -1,5 +1,5 @@
 import { Button } from '@/source/shared/ui/button'
-import { Stages } from '@/source/shared/widgets/stages';
+import { Stages } from '@/source/shared/widgets/stages'
 
 export const HomePage: React.FC = () => {
   return (
