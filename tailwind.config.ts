@@ -28,7 +28,7 @@ const config: Config = {
         'logo-white': "url('/logo-bg-white.svg')"
       },
       backgroundPosition: {
-        'top-logo-white-1': 'right 5rem top 5rem'
+        'top-logo-white-2': 'right 5rem top 5rem'
       }
     }
   },
