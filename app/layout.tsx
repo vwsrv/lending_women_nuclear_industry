@@ -1,4 +1,4 @@
-import '../source/app/styles/globals.css'
+import '@/app/styles/globals.css'
 import { inter, montserrat } from '@/app/fonts/fonts'
 
 const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
