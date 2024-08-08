@@ -1,9 +1,9 @@
 import '@/app/styles/globals.css'
-import { inter, montserrat } from '@/app/fonts/fonts'
+import { inter } from '@/app/fonts/fonts'
 
 const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (
-    <html lang="ru" className={`${montserrat.variable} ${inter.variable}`}>
+    <html lang="ru" className={`${inter.variable}`}>
       <body>{children}</body>
     </html>
   )
