@@ -8,7 +8,7 @@ export const Stages: React.FC<stagesProps> = ({ stagesImage }) => {
       <div className="bg-[url('/polygon-medium.svg')] bg-no-repeat bg-[right_-4rem_top]">
         <Image
           src={stagesImage.src}
-          alt='Этапы премии'
+          alt="Этапы премии"
           height={stagesImage.height}
           width={stagesImage.width}
         />
