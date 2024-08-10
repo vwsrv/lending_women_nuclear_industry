@@ -11,7 +11,7 @@ export const BulletList: React.FC<IBulletListProps> = ({ points }) => {
           <li
             key={index}
             className="
-            text-indigo-950
+            text-indigo
             text-xl font-normal leading-10
             center
             before:content-['']
@@ -19,7 +19,7 @@ export const BulletList: React.FC<IBulletListProps> = ({ points }) => {
             before:w-2.5
             before:h-2.5
             before:rounded-full
-            before:bg-indigo-900
+            before:bg-indigo
             before:mr-2"
           >
             {point}
