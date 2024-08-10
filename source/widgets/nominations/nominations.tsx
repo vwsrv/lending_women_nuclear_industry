@@ -18,7 +18,7 @@ export const Nominations: React.FC<INominationsProps> = ({
 
   return (
     <div
-      className="bg-purple-950 pt-14 pr-20 pl-20 pb-20 relative overflow-hidden
+      className="bg-indigo pt-14 pr-20 pl-20 pb-20 relative overflow-hidden
     after:content-[url('/nominee.svg')]
             after:inline-block
             after:w-100
@@ -29,13 +29,13 @@ export const Nominations: React.FC<INominationsProps> = ({
             after:-right-11
     "
     >
-      <h2 className="uppercase text-6xl font-bold leading-10 mb-10 text-white">
-        {nominations.length + 1} НОМИНАЦИЙ
+      <h2 className="uppercase text-6xl font-bold leading-10 mb-10 text-gray text-opacity-50">
+        {nominations.length + (!!specNomination ? 1 : 0)} НОМИНАЦИЙ
       </h2>
       <div className="flex flex-wrap">
         <div>
           <List points={firstHalf} />
-          <p className="uppercase text-2xl font-bold leading-10 text-purple-400">
+          <p className="uppercase text-2xl font-bold leading-10 text-magenta">
             {specNomination}
           </p>
         </div>

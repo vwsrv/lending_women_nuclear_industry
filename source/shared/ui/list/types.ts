@@ -6,5 +6,5 @@ export interface IListProps
     HTMLUListElement
   > {
   points: string[]
-  textAlign?: 'justify' | 'left' | 'center' | 'right'
+  textAlign?: 'left' | 'right'
 }
