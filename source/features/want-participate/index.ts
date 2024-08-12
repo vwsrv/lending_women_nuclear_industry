@@ -1,1 +1,1 @@
-export { WantParticipate } from "./want-participate"
+export { WantParticipate } from './want-participate'
