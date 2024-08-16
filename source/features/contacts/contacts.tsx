@@ -1,27 +1,25 @@
 import { contactsProps } from './type'
 import { contactsTexts } from './contactsTexts'
 
-export const Contacts: React.FC<contactsProps> = ({
-  // contactInfo,
-  // documents
-}) => {
+export const Contacts: React.FC<contactsProps> = (
+  {
+    // contactInfo,
+    // documents
+  }
+) => {
   return (
     <section className="bg-indigo p-20 text-gray max-w-[1440px]">
       <h2 className="uppercase text-6xl/tight font-bold mb-20">
-        {contactsTexts.title }
+        {contactsTexts.title}
       </h2>
       <div className="leading-10 text-3xl/10 grid grid-cols-2 gap-9 mb-28">
         <ul>
           {contactsTexts.contactInfo.map(({ bgname, link, text }, index) => {
-            // Срабатывает, только если картинка уже есть (в кэше?)
-            // <li key={index} className={"flex flex-row py-5 pl-16 bg-[url('/for-contacts/" + name + ".svg')] bg-no-repeat bg-[left_center]"}></li>
             return (
               <li
                 key={index}
                 className={
-                  'py-5 pl-16 ' +
-                  bgname +
-                  ' bg-no-repeat bg-[left_center]'
+                  'py-5 pl-16 ' + bgname + ' bg-no-repeat bg-[left_center]'
                 }
               >
                 <a
@@ -36,8 +34,8 @@ export const Contacts: React.FC<contactsProps> = ({
             )
           })}
         </ul>
-        <div className="bg-logo-dark bg-no-repeat bg-top-center">
-          <div className="bg-magenta text-gray mt-64">
+        <div className="bg-logo-dark bg-no-repeat bg-top-center pt-64">
+          <div className="bg-magenta text-gray">
             Форма &quot;подписаться&quot; и кнопка &quot;поддержать проект&quot;
           </div>
         </div>

@@ -29,7 +29,6 @@ const config: Config = {
         'poly-pattern': "url('/polygons.svg')",
         'logo-white': "url('/logo-bg-white.svg')",
         'logo-dark': "url('/for-contacts/logo-bg-dark.svg')",
-
         'icons-email': "url('/for-contacts/email.svg')",
         'icons-phone': "url('/for-contacts/phone.svg')",
         'icons-whatsup': "url('/for-contacts/whatsup.svg')",
