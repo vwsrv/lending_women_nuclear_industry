@@ -1,8 +1,5 @@
 import { Button } from '@/source/shared/ui/button'
 import { Contacts } from '@/widgets/contacts'
-import { link } from 'fs'
-
-// import aaa from '@'
 
 const contactInfo = [
   {
@@ -60,7 +57,10 @@ const documents = [
     name: 'Банковские реквизиты',
     link: 'https://disk.yandex.ru/i/81o5J0GsKFpKRg'
   },
-  { name: 'Устав', link: 'https://disk.yandex.ru/i/RIWS5J-iZAj6GA' }
+  {
+    name: 'Устав',
+    link: 'https://disk.yandex.ru/i/RIWS5J-iZAj6GA'
+  }
 ]
 
 export const HomePage: React.FC = () => {
@@ -69,7 +69,8 @@ export const HomePage: React.FC = () => {
       <Button className="bg-[#D3CAFF] rounded-2xl px-6 py-8 text-[#2E2559] bold text-2xl hover:opacity-75 transition-opacity">
         Зарегистрироваться
       </Button>
-      <Contacts contactInfo={contactInfo} documents={documents} />
+      {/* <Contacts contactInfo={contactInfo} documents={documents} /> */}
+      <Contacts/>
     </main>
   )
 }
