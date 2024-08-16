@@ -8,7 +8,7 @@ export const Contacts: React.FC<contactsProps> = (
   }
 ) => {
   return (
-    <section className="bg-indigo p-20 text-gray max-w-[1440px]">
+    <section className="bg-indigo p-20 text-gray">
       <h2 className="uppercase text-6xl/tight font-bold mb-20">
         {contactsTexts.title}
       </h2>
