@@ -1,3 +1,3 @@
 export const stagesTexts = {
-  title: 'Этапы премии',
+  title: 'Этапы премии'
 }
