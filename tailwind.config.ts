@@ -35,7 +35,7 @@ const config: Config = {
       },
       fontSize: {
         h3: '55px'
-      },
+      }
     }
   },
   plugins: []

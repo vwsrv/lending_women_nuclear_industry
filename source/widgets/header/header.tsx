@@ -24,12 +24,14 @@ export const Header: React.FC<headerProps> = ({ description }) => {
             {description}
           </p>
           <div className="h-[60px] mt-[26px]"></div>
-          <div className="h-[97px] mb-[113px]"><Button
-            variant="blue"
-            className="w-[335px] h-[97px] bg-blue rounded-xl text-white text-[24px] font-bold mt-[11px]"
-          >
-            Поддержать проект
-          </Button></div>
+          <div className="h-[97px] mb-[113px]">
+            <Button
+              variant="blue"
+              className="w-[335px] h-[97px] bg-blue rounded-xl text-white text-[24px] font-bold mt-[11px]"
+            >
+              Поддержать проект
+            </Button>
+          </div>
         </div>
         <Image
           className="absolute right-[75px] bottom-[67px] z-20"
