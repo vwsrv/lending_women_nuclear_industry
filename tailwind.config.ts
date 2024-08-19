@@ -21,9 +21,6 @@ const config: Config = {
       violet: '#906FCC',
       magenta: '#C410E1'
     },
-    fontSize: {
-      h3: '55px'
-    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -35,7 +32,10 @@ const config: Config = {
       backgroundPosition: {
         'top-logo-white-1': 'right 5rem top 2.75rem',
         'top-logo-white-2': 'right 5rem top 5rem'
-      }
+      },
+      fontSize: {
+        h3: '55px'
+      },
     }
   },
   plugins: []
