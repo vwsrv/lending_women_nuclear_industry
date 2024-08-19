@@ -10,7 +10,7 @@ export const List: React.FC<IListProps> = ({ points, textAlign = 'left' }) => {
         return (
           <li
             key={index}
-            className={`text-white text-xl font-bold leading-10 uppercase ${textAlign === 'right' ? 'ml-auto' : ''}`}
+            className={`text-white text-xl font-bold leading-10 uppercase ${textAlign === 'right' ? 'ml-0 lg:ml-auto' : ''}`}
           >
             {point}
           </li>

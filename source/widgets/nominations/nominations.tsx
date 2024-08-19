@@ -27,19 +27,21 @@ export const Nominations: React.FC<INominationsProps> = ({
             after:absolute
             after:-bottom-10
             after:-right-11
+            after:opacity-40
+            lg:after:opacity-100
     "
     >
       <h2 className="uppercase text-6xl font-bold leading-10 mb-10 text-gray text-opacity-50">
         {nominations.length + (!!specNomination ? 1 : 0)} НОМИНАЦИЙ
       </h2>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap z-10">
         <div>
           <List points={firstHalf} />
           <p className="uppercase text-2xl font-bold leading-10 text-magenta">
             {specNomination}
           </p>
         </div>
-        <div className="-ml-80">
+        <div className="ml-0 z-10 xl:-ml-80">
           <List points={secondHalf} textAlign="right" />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Button } from '@/source/shared/ui/button'
 import { Nominations } from '@/source/widgets/nominations'
+import { MissionAndTasks } from '@/source/widgets/missionAndTasks'
 
 export const HomePage: React.FC = () => {
   return (
@@ -28,6 +29,22 @@ export const HomePage: React.FC = () => {
           'МЕДИЦИНЫ'
         ]}
         specNomination="СПЕЦНОМИНАЦИЯ: ЖЕНЩИНЫ-УЧЕНЫЕ АРКТИКИ"
+      />
+      <MissionAndTasks
+        missions={[
+          'популяризация науки',
+          'формирование ролевых моделей для будущих женщин- ученых',
+          'сохранение интеллектуального капитала',
+          'создание кадрового резерва в стране',
+          'укрепление карьерных позиций для женщин-ученых'
+        ]}
+        tasks={[
+          'создание крепкого комьюнити для женщин-ученых',
+          'образовательная и просветительская поддержка',
+          'обмен опытом и знаниями',
+          'карьерная поддержка и наставничество',
+          'медиа-поддержка'
+        ]}
       />
     </main>
   )
