@@ -21,6 +21,9 @@ const config: Config = {
       violet: '#906FCC',
       magenta: '#C410E1'
     },
+    fontSize: {
+      h3: '55px'
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
