@@ -5,6 +5,9 @@ import { MissionAndTasks } from '@/source/widgets/missionAndTasks'
 import { WantParticipate } from '@/source/features/want-participate'
 import { Partners } from '@/source/features/partners'
 import { ProjectResults } from '@/source/features/project-results'
+import { Stages } from '@/source/features/stages'
+import { Experts } from '@/source/features/experts'
+import { Trustees } from '@/source/features/trustees'
 import evrasii from '@/shared/images/for-partners/assambleya-evrazii.png'
 import vciom from '@/shared/images/for-partners/vciom.png'
 import tvoi from '@/shared/images/for-partners/tvoi-hod.png'
@@ -15,10 +18,6 @@ import vestnik from '@/shared/images/for-partners/vestnik.png'
 import designers from '@/shared/images/for-partners/designers.png'
 import global from '@/shared/images/for-partners/global.png'
 import rounds from '@/shared/images/for-project-results/rounds.svg'
-
-import { Stages } from '@/source/features/stages'
-import { Experts } from '@/source/features/experts'
-import { Trustees } from '@/source/features/trustees'
 
 export const HomePage: React.FC = () => {
   return (
