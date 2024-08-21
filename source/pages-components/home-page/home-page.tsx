@@ -3,6 +3,9 @@ import { Header } from '@/source/widgets/header/header'
 import { Nominations } from '@/source/widgets/nominations'
 import { MissionAndTasks } from '@/source/widgets/missionAndTasks'
 import { WantParticipate } from '@/source/features/want-participate'
+import { Stages } from '@/source/features/stages'
+import { Experts } from '@/source/features/experts'
+import { Trustees } from '@/source/features/trustees'
 
 export const HomePage: React.FC = () => {
   return (
@@ -32,6 +35,9 @@ export const HomePage: React.FC = () => {
         ]}
       />
       <WantParticipate />
+      <Stages />
+      <Experts />
+      <Trustees />
       <Nominations
         nominations={[
           'ФИЗИКА',
