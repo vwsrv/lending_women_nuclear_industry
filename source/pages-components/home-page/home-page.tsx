@@ -13,6 +13,7 @@ export const HomePage: React.FC = () => {
       {/* <Button className="bg-[#D3CAFF] rounded-2xl px-6 py-8 text-[#2E2559] bold text-2xl hover:opacity-75 transition-opacity">
         Зарегистрироваться
       </Button> */}
+      {/* test */}
       <Header
         description={
           'Хотите стать участником самого крупного женского научного сообщества в России, партнером/инфопартнером, волонтером, колумнистом блога, меценатом оставьте заявку ниже или поддержите проект'
