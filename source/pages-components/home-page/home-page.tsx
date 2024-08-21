@@ -7,6 +7,7 @@ import { Stages } from '@/source/features/stages'
 import { Experts } from '@/source/features/experts'
 import { Trustees } from '@/source/features/trustees'
 
+
 export const HomePage: React.FC = () => {
   return (
     <main>
