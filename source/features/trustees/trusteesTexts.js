@@ -73,6 +73,6 @@ export const trusteesTexts = {
       photo: irinanikulina,
       name: 'Ирина Никулина',
       info: 'генеральный директор компании "Буарон" в России'
-    },
+    }
   ]
 }
