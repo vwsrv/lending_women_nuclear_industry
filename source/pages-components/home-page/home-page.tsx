@@ -5,6 +5,9 @@ import { MissionAndTasks } from '@/source/widgets/missionAndTasks'
 import { WantParticipate } from '@/source/features/want-participate'
 import { Partners } from '@/source/features/partners'
 import { ProjectResults } from '@/source/features/project-results'
+import { Stages } from '@/source/features/stages'
+import { Experts } from '@/source/features/experts'
+import { Trustees } from '@/source/features/trustees'
 import evrasii from '@/shared/images/for-partners/assambleya-evrazii.png'
 import vciom from '@/shared/images/for-partners/vciom.png'
 import tvoi from '@/shared/images/for-partners/tvoi-hod.png'
@@ -44,6 +47,9 @@ export const HomePage: React.FC = () => {
         ]}
       />
       <WantParticipate />
+      <Stages />
+      <Experts />
+      <Trustees />
       <Nominations
         nominations={[
           'ФИЗИКА',
