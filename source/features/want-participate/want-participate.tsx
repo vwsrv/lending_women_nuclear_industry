@@ -28,7 +28,7 @@ export const WantParticipate: React.FC = () => {
               {wantParticipateTexts.award.title}
             </p>
             <Button
-              variant="violet"
+              variant="blue"
               className="w-[335px] h-[97px] bg-violet rounded-xl text-white text-[24px] font-bold mt-[11px]"
             >
               {wantParticipateTexts.award.buttonLabel}
