@@ -16,6 +16,10 @@ import designers from '@/shared/images/for-partners/designers.png'
 import global from '@/shared/images/for-partners/global.png'
 import rounds from '@/shared/images/for-project-results/rounds.svg'
 
+import { Stages } from '@/source/features/stages'
+import { Experts } from '@/source/features/experts'
+import { Trustees } from '@/source/features/trustees'
+
 export const HomePage: React.FC = () => {
   return (
     <main>
@@ -44,6 +48,9 @@ export const HomePage: React.FC = () => {
         ]}
       />
       <WantParticipate />
+      <Stages />
+      <Experts />
+      <Trustees />
       <Nominations
         nominations={[
           'ФИЗИКА',
