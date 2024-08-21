@@ -1,7 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes } from 'react'
 import { personListItem } from '@/shared/ui/person-list/types'
 
-export interface expertsProps
+export interface trusteesProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement> {
-  // expertList: personListItem[]
+  trusteesList: personListItem[]
 }
