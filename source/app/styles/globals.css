@@ -18,3 +18,33 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .btn {
+    @apply relative text-center border-transparent cursor-pointer rounded text-white hover:opacity-75 transition-opacity;
+  }
+
+  .btn-big {
+    @apply font-bold text-2xl min-w-[335px] min-h-[97px] py-2 px-2.5;
+  }
+
+  .btn-small {
+    @apply font-normal text-base min-h-[44px] min-w-[163px] py-0.5 px-2;
+  }
+
+  .btn-blue {
+    @apply bg-blue;
+  }
+
+  .btn-indigo {
+    @apply bg-indigo;
+  }
+
+  .btn-violet {
+    @apply bg-violet;
+  }
+
+  .btn-magneta {
+    @apply bg-magenta;
+  }
+}
