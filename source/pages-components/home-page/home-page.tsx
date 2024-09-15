@@ -17,16 +17,18 @@ import vestnik from '@/shared/images/for-partners/vestnik.png'
 import designers from '@/shared/images/for-partners/designers.png'
 import global from '@/shared/images/for-partners/global.png'
 import rounds from '@/shared/images/for-project-results/rounds.svg'
-import headerTitle from '@/public/for-header/header__title.svg';
-import moleculeCloudsBgd from '@/public/for-header/molecule-clouds.svg';
-import womenBgd from '@/public/for-header/women.svg';
+import headerTitle from '@/public/for-header/header__title.svg'
+import moleculeCloudsBgd from '@/public/for-header/molecule-clouds.svg'
+import womenBgd from '@/public/for-header/women.svg'
 import colbaImage from '@/public/for-header/colba.svg'
 
 export const HomePage: React.FC = () => {
   return (
     <main>
       <Header
-        description={'Хотите стать участником самого крупного женского научного сообщества в России, партнером/инфопартнером, волонтером, колумнистом блога, меценатом оставьте заявку ниже или поддержите проект'}
+        description={
+          'Хотите стать участником самого крупного женского научного сообщества в России, партнером/инфопартнером, волонтером, колумнистом блога, меценатом оставьте заявку ниже или поддержите проект'
+        }
         titleImage={headerTitle}
         cloudMoleculeImage={moleculeCloudsBgd}
         womenImage={womenBgd}

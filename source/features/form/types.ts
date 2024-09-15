@@ -7,7 +7,7 @@ export interface inputProps {
   placeholder: string
   emailContent: boolean
   onChange?: (event: ChangeEvent<HTMLInputElement>) => void
-  onSubmit:  (
+  onSubmit: (
     e?: React.BaseSyntheticEvent<object, any, any> | undefined
-  ) => Promise<void>;
+  ) => Promise<void>
 }
