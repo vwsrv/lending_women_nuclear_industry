@@ -4,7 +4,7 @@ import { Button } from '../../shared/ui/button'
 import React from 'react'
 import { inputProps } from './types'
 
-export const InputForm: React.FC<inputProps> = ({
+export const Form: React.FC<inputProps> = ({
   name,
   type = 'email',
   placeholder,

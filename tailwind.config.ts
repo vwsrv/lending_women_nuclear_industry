@@ -22,6 +22,7 @@ const config: Config = {
       magenta: '#C410E1'
     },
     fontSize: {
+      base: '16px',
       h3: '55px'
     },
     extend: {

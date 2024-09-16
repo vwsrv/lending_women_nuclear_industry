@@ -2,7 +2,7 @@ import { Button } from '../button'
 import React from 'react'
 import { inputProps } from './types'
 
-export const formInput: React.FC<inputProps> = ({
+export const FormInput: React.FC<inputProps> = ({
   name,
   type = 'email',
   placeholder,
